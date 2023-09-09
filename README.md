@@ -7,18 +7,25 @@ First, recommended to install Node.js and MongoDB.
 
 To get package.json write in the terminal the following:
 
-  ``` npm init ```
+  ```
+  npm init
+ ```
                 
 To install express write in the terminal the following:	
 
-  ```npm i express```
+  ```
+npm i express
+  ```
   
 that will create folder by name 'node_moduls' and also a package-lock.json file.
 
 
 # Start the server
 Write the following in the terminal
- ``` npm run dev ```
+
+ ``` 
+ npm run dev
+ ```
 
             
 # Connecting to MongoDB
