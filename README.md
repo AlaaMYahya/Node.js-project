@@ -3,19 +3,21 @@
 Use Node.js, TypeScript, and MongoDB to build a more advanced API server that can handle user data. The user data is saved in a MongoDB database that is hosted on MongoDB Atlas, and this server is able to handle CRUD (Create, Read, Update, Delete) operations.
 
 # Installation
-First, recommended to install Node.js and MongoDB.
+First, recommended to install Node.js and MongoDB.		
 
 To get package.json write in the terminal the following:
-  npm init
 
-To install express write in the terminal the following:
-  npm i express
+  npm init
+                
+To install express write in the terminal the following:	
+
+  'npm i express'
 that will create folder by name 'node_moduls' and also a package-lock.json file.
 
 
 # Start the server
 Write the following in the terminal
-  npm run dev
+ ' npm run dev '
 
             
 # Connecting to MongoDB
