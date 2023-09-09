@@ -89,7 +89,7 @@ app.delete('/users/:id', async(req, res) => {
 
 
 
-mongoose.connect('mongodb+srv://Alaa:Fdbfma128@atlascluster.aiz5tp8.mongodb.net/user?retryWrites=true&w=majority')
+mongoose.connect('<Your Atlas Connection String>')
 .then(() =>{
     console.log('connected to MongoDB')
     app.listen(3006, ()=> {
